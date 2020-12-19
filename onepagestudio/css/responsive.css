@@ -1,0 +1,179 @@
+@media only screen and (max-width: 1023px) {
+ .counter-blcok span {
+	font-size: 36px;
+	
+}
+.testimonial-img {
+	width: 270px;
+	height: 270px;
+}
+.testimonial-slider .slick-dots {
+	bottom: -30px;
+	
+}
+.social-links li {
+	
+	margin-right: 10px;
+}
+.social-links li a {
+	font-size: 24px;
+	
+}
+.hero-content h1 {
+	font-size: 40px;
+	line-height: 60px;
+	
+}
+.custome-nav {
+
+    position: inherit;
+}
+.m-menu-btn {
+
+    display: inline-block;
+    vertical-align: middle;
+}
+.menu {
+	position: absolute;
+    left:0;
+    right: 0;
+	top: 100%;
+	height: 100%;
+	background-color: #ff841b;
+	z-index: 9999;
+    text-align: left;
+    display: none;
+    height: auto;
+}
+.menu ul li {
+
+    display: block;
+    margin: 0px;
+	
+}
+.menu ul li a {
+
+    padding: 10px 15px;
+    border-bottom: 1px solid #fe9b47;
+}
+.menu ul li a:hover {
+
+    color: #001a53;
+}
+}
+
+@media only screen and (max-width: 991px) {
+
+    .quote-section {
+
+        text-align: center;
+    }
+    .quote-section .text-right {
+
+        text-align: inherit !important;
+    }
+
+}
+
+@media only screen and (max-width: 920px) { 
+
+.testimonial-img {
+	width: 230px;
+	height: 230px;
+}
+
+
+
+}
+
+@media only screen and (max-width: 767px) { 
+.sec-space-both {
+	padding: 60px 0px;
+}
+.testimonial-img {
+	margin: 0 auto 20px;
+}
+.testimonial-img::after {
+	
+	right: -30px;
+}
+.testimonial-slider .slick-dots {
+	
+	width: 100%;
+	left: 0;
+}
+.sec-title span {
+	font-size: 18px;
+	
+}
+.sec-title h2, .quote-section h2 {
+	font-size: 34px;
+	
+}
+.counter-blcok {
+
+    margin: 15px 0px;
+
+}
+.contact-detail {
+
+    margin-top: 30px;
+
+}
+.our-services-block {
+	
+	padding: 40px 20px 10px 20px;
+
+}
+.vision-mission-box {
+
+    padding: 35px 20px;
+}
+
+}
+
+@media only screen and (max-width: 570px) {
+
+.services-icon {
+
+	width: 40px;
+	
+}
+.services-contnet {
+	
+	width: calc(100% - 50px);
+}
+.services-contnet h3 {
+	font-size: 19px;
+	
+}
+.main-hero-section {
+	
+	min-height: 640px;
+}
+.hero-content h1 {
+	font-size: 24px;
+	line-height: 34px;
+}
+
+}
+
+@media only screen and (max-width: 414px) {
+
+.vision-mission-box {
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 100%;
+	flex: 0 0 100%;
+    max-width: 100%;
+    overflow: hidden;
+	
+	
+}
+.mission-box::before {
+	
+	width: 100%;
+	height: 1px;
+	
+}
+
+}
